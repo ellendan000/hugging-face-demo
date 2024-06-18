@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+datasets = "*"
+evaluate = "*"
+gradio = "*"
+scikit-learn = "*"
+pandas = "*"
+matplotlib = "*"
+tensorboard = "*"
+jupyterlab = "*"
+httpx = {extras = ["socks"], version = "*"}
+accelerate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
